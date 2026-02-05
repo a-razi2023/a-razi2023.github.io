@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سامانه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>ورود به سامانه مذاکرات</h2>
+        <form action="login.php" method="POST">
+            <div class="input-group">
+                <label for="user_code">کد شعبه</label>
+                <input type="text" id="user_code" name="user_code" required>
+            </div>
+            <div class="input-group">
+                <label for="password">رمز عبور</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">ورود</button>
+        </form>
+    </div>
+</body>
+</html>
